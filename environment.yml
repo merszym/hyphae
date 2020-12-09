@@ -2,45 +2,7 @@ name: hyphae
 channels:
   - defaults
 dependencies:
-  - _libgcc_mutex=0.1
-  - blas=1.0
-  - ca-certificates=2020.10.14
-  - cairo=1.14.12
-  - certifi=2020.12.5
-  - fontconfig=2.13.0
-  - freetype=2.10.4
-  - glib=2.66.1
-  - icu=58.2
-  - intel-openmp=2020.2
-  - ld_impl_linux-64=2.33.1
-  - libedit=3.1.20191231
-  - libffi=3.3
-  - libgcc-ng=9.1.0
-  - libpng=1.6.37
-  - libstdcxx-ng=9.1.0
-  - libuuid=1.0.3
-  - libxcb=1.14
-  - libxml2=2.9.10
-  - mkl=2020.2
-  - mkl-service=2.3.0
-  - mkl_fft=1.2.0
-  - mkl_random=1.1.1
-  - ncurses=6.2
-  - numpy=1.19.2
-  - numpy-base=1.19.2
-  - openssl=1.1.1h
-  - pcre=8.44
-  - pip=20.3.1
-  - pixman=0.40.0
-  - pycairo=1.19.1
-  - python=3.8.5
-  - readline=8.0
-  - setuptools=51.0.0
-  - six=1.15.0
-  - sqlite=3.33.0
-  - tk=8.6.10
-  - wheel=0.36.1
-  - xz=5.2.5
-  - zlib=1.2.11
+  - numpy
+  - pycairo
 prefix: /home/merlin/programms/miniconda3/envs/hyphae
 
