@@ -4,3 +4,5 @@
 /res/*
 profile.profile
 color/*
+.idea
+out/
