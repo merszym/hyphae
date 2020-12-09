@@ -14,7 +14,7 @@ from numpy.random import normal as normal
 """ GLOBAL SETTINGS """
 
 NMAX = int(2 * 1e7)  # maximum number of nodes
-SIZE = 15000
+SIZE = 8000
 ONE = 1 / SIZE
 RAD = 40 * ONE
 
@@ -35,9 +35,9 @@ DRAW_SKIP = 1000  # write image at this step
 RAD_SCALE = 0.92
 SEARCH_ANGLE_MAX = pi
 R_RAND_SIZE = 6
-CK_MAX = 15  # max number of allowed branch attempts from a node
+CK_MAX = 25  # max number of allowed branch attempts from a node
 CIRCLE_RADIUS = 0.45
-SOURCE_NUM = 9
+SOURCE_NUM = 18
 ALPHA = 0.09
 GRAINS = 10
 INIT_CIRCLE = 0.45
