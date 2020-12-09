@@ -1,19 +1,37 @@
 about hyphae
 =============
 
-Generates root-like networks where no edges overlap. 
+The Script generates root-like networks where no edges overlap. 
+More details see website of the author: https://inconvergent.net/generative/hyphae/ 
 
-### This Fork ###
+## This Fork ##
 
-This is a python3-compatible version of the core functionality of the original hyphae script.
-With a fitting conda environment
+This is a little clean-up of the original script. It is
+- **python3**-compatible
+- reduced to core functionality
+- available with **conda-environment** 
 
-#### getting started ####
 
-1. Clone this repository
-2. Create and activate a conda environment based on the environment.yml file
-3. Run: ´´´python3 hyphae.py OUTNAME OUTDIR´´´´
+### Getting started ###
 
+1. Clone this repository and change into it
+```
+git clone https://github.com/MerlinSzymanski/hyphae
+cd hyphae
+```
+
+2. Create and activate the conda environment
+```
+conda env create -f environment.yml
+conda activate hyphae
+```
+
+3. Run the script:
+```
+python3 hyphae.py
+```
+
+This creates a series of pictures in a directory called "out" in the working directory
 
 ----
 Anders Hoff 2014
