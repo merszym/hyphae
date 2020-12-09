@@ -11,6 +11,8 @@ This is a little clean-up of the original script. It is
 - reduced to core functionality
 - available with **conda-environment** 
 
+**Output**: This creates a series of pictures in a directory called "out" in the working directory
+They later have to be cut together to create "the" simulation
 
 ### Getting started ###
 
@@ -30,8 +32,7 @@ conda activate hyphae
 ```
 python3 hyphae.py
 ```
-
-This creates a series of pictures in a directory called "out" in the working directory
+WARNING: The script never stops! Use ctrl+c to stop the script when you think it is enough
 
 ----
 Anders Hoff 2014
