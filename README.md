@@ -18,7 +18,7 @@ They later have to be cut together to create "the" simulation
 
 1. Clone this repository and change into it
 ```
-git clone https://github.com/MerlinSzymanski/hyphae
+git clone https://github.com/merszym/hyphae
 cd hyphae
 ```
 
